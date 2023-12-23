@@ -5,6 +5,7 @@
   "author": "BuiltBySisi",
   "homepage": "https://accessible-astro.netlify.app/",
   "scripts": {
+    "postinstall": "npm install --arch=x64 --platform=linux sharp",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
